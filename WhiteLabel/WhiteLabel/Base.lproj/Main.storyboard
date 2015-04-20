@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fji-yM-1je">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="squareBank" translatesAutoresizingMaskIntoConstraints="NO" id="kpe-cL-X35">
+                                <rect key="frame" x="37" y="112" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="OJd-SD-PTg"/>
+                                    <constraint firstAttribute="width" constant="300" id="UHC-lG-MjE"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2i-QG-FMa" customClass="HighlightButton">
+                                <rect key="frame" x="-4" y="543" width="383" height="60"/>
+                                <color key="backgroundColor" red="0.75686274509999996" green="0.15686274510000001" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ld5-jy-1PW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <inset key="titleEdgeInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="-15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="TAP TO PAIR DEVICE" image="pairIcon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pairButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AcI-Cs-i4P"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUH-PG-hOn" customClass="HighlightButton">
+                                <rect key="frame" x="-4" y="543" width="192" height="60"/>
+                                <color key="backgroundColor" red="0.75686274509999996" green="0.15686274510000001" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="1Y6-lX-ShV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="AUTHENTICATE">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="authenticateButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7M7-2c-Y6J"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcm-eX-Mxg" customClass="HighlightButton">
+                                <rect key="frame" x="188" y="543" width="191" height="60"/>
+                                <color key="backgroundColor" red="0.75686274509999996" green="0.15686274510000001" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="EaR-ue-xT1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="SETTINGS">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="settingsButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X9q-VW-6BO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57647058823529407" green="0.15294117647058825" blue="0.16862745098039217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="kpe-cL-X35" secondAttribute="centerX" id="4f5-rI-vhk"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="hcm-eX-Mxg" secondAttribute="bottom" id="BH0-2i-Irs"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="q2i-QG-FMa" secondAttribute="bottom" id="R2z-Zb-sbV"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="qUH-PG-hOn" secondAttribute="bottom" id="RCO-qw-dHr"/>
+                            <constraint firstItem="q2i-QG-FMa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="UNC-gv-3gq"/>
+                            <constraint firstAttribute="centerY" secondItem="kpe-cL-X35" secondAttribute="centerY" constant="40" id="Xyp-aQ-7Xf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q2i-QG-FMa" secondAttribute="trailing" constant="-20" id="chR-ql-uVU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hcm-eX-Mxg" secondAttribute="trailing" constant="-20" id="feH-6N-zQD"/>
+                            <constraint firstItem="hcm-eX-Mxg" firstAttribute="leading" secondItem="qUH-PG-hOn" secondAttribute="trailing" id="khf-V9-pHD"/>
+                            <constraint firstItem="qUH-PG-hOn" firstAttribute="width" secondItem="hcm-eX-Mxg" secondAttribute="width" id="pVb-Wj-9bn"/>
+                            <constraint firstItem="qUH-PG-hOn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="xGO-J8-ftS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="A3g-dP-MKk"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="authenticateButton" destination="qUH-PG-hOn" id="ide-8Z-d37"/>
+                        <outlet property="pairButton" destination="q2i-QG-FMa" id="myb-Eb-mXC"/>
+                        <outlet property="settingsButton" destination="hcm-eX-Mxg" id="ZZg-ye-n6G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168.5" y="423.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Wqd-5e-c9S">
+            <objects>
+                <navigationController id="fji-yM-1je" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="5w9-uV-zD9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.75686274509803919" green="0.15686274509803921" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KQM-i0-UcV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ppb-2h-9MK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-253" y="424"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pairIcon" width="51" height="39"/>
+        <image name="squareBank" width="255" height="124"/>
+    </resources>
+</document>
