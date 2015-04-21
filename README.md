@@ -33,9 +33,7 @@ Utilization of the LaunchKey WhiteLabel example requires the following items:
 
   In the AppDelegate, initialize the LaunchKeySDKManager with your White Label sdk key
 
-    ```objective-c
     [[LaunchKeySDKManager sharedClient] init:@"<WhiteLabel_key>"];
-    ```
   
 #  <a name="support"></a>Support
 
