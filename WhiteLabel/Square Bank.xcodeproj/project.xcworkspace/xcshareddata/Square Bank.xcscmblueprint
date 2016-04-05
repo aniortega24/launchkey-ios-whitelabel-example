@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1DAFF0615289FEEFE5EE79E5F7F71DC4966F1DF7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7B3F21F0ECCD40C6302F0E0D89B6AE2F87D42A80" : 0,
+    "1DAFF0615289FEEFE5EE79E5F7F71DC4966F1DF7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A3A50A99-39B9-4E6C-985A-5086E87EAA97",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7B3F21F0ECCD40C6302F0E0D89B6AE2F87D42A80" : "launchkey-ios-whitelabel-example",
+    "1DAFF0615289FEEFE5EE79E5F7F71DC4966F1DF7" : "WhiteLabel-Example\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Square Bank",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WhiteLabel\/Square Bank.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ashiranian24\/launchkey-ios-whitelabel-example.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1DAFF0615289FEEFE5EE79E5F7F71DC4966F1DF7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "server.int.lkey:launchkey-ios-whitelabel-example.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7B3F21F0ECCD40C6302F0E0D89B6AE2F87D42A80"
+    }
+  ]
+}
